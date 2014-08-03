@@ -6,6 +6,23 @@ class ListNode:
 
 def quicksort(unsortedList):
 	headNode = unsortedList
+	rightList = unsortedList
+	leftList = None
+	
+	# pick the pivot from first of the list for now
+	pivot = rightList.val
+	while not rightList is None:
+		if rightList.next.val < pivot:
+			# for the first ele in the left list
+			if leftList is None:
+				leftList = rightList.next
+				leftList.next = None
+			else:
+				leftList.next = rightList.next
+				
+				
+			rightList.next = rightList.next.next
+				
 	return headNode
 
 def createLinkList(mList):
