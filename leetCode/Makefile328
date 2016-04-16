@@ -1,0 +1,13 @@
+CC = cc
+CFLAGS = -Wall -g -DNDEBUG
+
+all: 328_main
+
+328_main: 328.c lll.o
+	cc $(CFLAGS) 328.c lll.o -o 328_main
+
+lll.o: linkedListLib.c
+	cc $(CFLAGS) -c linkedListLib.c -o lll.o
+
+clean:
+	rm *.o 328_main 328
