@@ -57,7 +57,7 @@ int Length(struct ListNode* head) {
 void PrintList(struct ListNode* head) {
     int count = 0;
     struct ListNode* current = head;
-    
+
     while(current != NULL) {
         printf("[%d]: %d\n", count, current->val);
         current = current->next;
@@ -186,4 +186,35 @@ int Pop(struct ListNode** headRef)
     free(head);
 
     return headVal;
+}
+
+void InsertNth(struct ListNode** headRef, int index, int data)
+{
+    int len = Length(*headRef);
+    assert(index <= len);
+
+    int count = 1;
+    struct ListNode* current = *headRef;
+
+    if (index == 0)
+    {
+        // special case
+        Push(headRef, data);
+    }
+    else
+    {
+        // regular case
+        while(current != NULL) {
+            if(count == index) {
+                // insert the node
+                struct ListNode* newNode = malloc(sizeof(struct ListNode));
+                newNode->val = data;
+                newNode->next = current->next;
+                current->next = newNode;
+                break;
+            }
+            current = current->next;
+            count++;
+        }
+    }
 }

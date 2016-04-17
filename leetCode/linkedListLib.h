@@ -17,5 +17,6 @@ int Count(struct ListNode* head, int element);
 int GetNth(struct ListNode* head, int index);
 void DeleteList(struct ListNode** headRef);
 int Pop(struct ListNode** headRef);
+void InsertNth(struct ListNode** headRef, int index, int data);
 
 #endif
