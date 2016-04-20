@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
+#include <stdbool.h>
 #include "linkedListLib.h"
 
 struct ListNode* BuildOneTwoThree() {
@@ -217,4 +218,259 @@ void InsertNth(struct ListNode** headRef, int index, int data)
             count++;
         }
     }
+}
+
+void SortedInsert_hao(struct ListNode** headRef, struct ListNode* newNode)
+{
+    struct ListNode* current = *headRef;
+    struct ListNode* previous = NULL;
+
+    if(newNode->val < current->val)
+    {
+        Push(headRef, newNode->val);
+        return;
+    }
+
+    while(current != NULL) {
+        if(current->val > newNode->val) {
+            newNode->next = current;
+            previous->next = newNode;
+            return;
+        }
+        previous = current;
+        current = current->next;
+    }
+
+    // finally if is larger than all of the existing elements
+    // insert the note in the end
+    newNode->next = current;
+    previous->next = newNode;
+    // InsertNth(headRef, Length(*headRef), newNode->val);
+}
+
+void SortedInsert(struct ListNode** headRef, struct ListNode* newNode)
+{
+    if(*headRef == NULL || (*headRef)->val >= newNode->val)
+    {
+        // special case for the 1st node
+        newNode->next = *headRef;
+        *headRef = newNode;
+    }
+    else
+    {
+        // Locate the node before the point of insertion
+        struct ListNode* current = *headRef;
+        while(current->next != NULL &&
+         current->next->val < newNode->val)
+        {
+            current = current->next;
+        }
+        newNode->next = current->next;
+        current->next = newNode;
+    }
+}
+
+// official answer, something's wrong here
+void InsertSort(struct ListNode** headRef)
+{
+    struct ListNode* result = NULL;
+    struct ListNode* current = *headRef;
+    struct ListNode* next;
+
+    while(current != NULL) {
+        next = current->next;
+        SortedInsert(&result, current);
+        current = next;
+    }
+
+    *headRef = result;
+}
+
+void Append(struct ListNode** aRef, struct ListNode** bRef)
+{
+    if(*aRef == NULL)
+    {
+        *aRef = *bRef;
+    }
+    else
+    {
+        // regular cases
+        struct ListNode* current = *aRef;
+        while(current->next != NULL)
+        {
+            current = current->next;
+        }
+        current->next = *bRef;
+    }
+}
+
+// split a list of nodes into 2 seperated lists
+void FrontBackSplit(struct ListNode* source, 
+    struct ListNode** frontRef, struct ListNode** backRef)
+{
+    int counter = 0;
+    int len = Length(source);
+
+    if(len % 2 == 0)
+        len = len/2 - 1;
+    else
+        len = (len+1)/2 - 1;
+
+    printf("1st half length: %d\n", len);
+
+    *frontRef = source;
+    struct ListNode* tracker = source;
+
+    while(counter < len)
+    {
+        tracker = tracker->next;
+        counter++;
+    }
+
+    *backRef = tracker->next;
+    tracker->next = NULL;
+
+}
+
+void MoveNode(struct ListNode** destRef, struct ListNode** sourceRef)
+{
+    assert((*sourceRef) != NULL);
+    struct ListNode* sHead = *sourceRef;
+    *sourceRef = (*sourceRef)->next;
+
+    sHead->next = *destRef;
+    *destRef = sHead;
+}
+
+void AlternatingSplit(struct ListNode* source,
+    struct ListNode** aRef, struct ListNode** bRef)
+{
+    struct ListNode* current = source;
+    struct ListNode* temp;
+    struct ListNode* aTracker;
+    struct ListNode* bTracker;
+
+    bool flag = true;
+
+    while(current != NULL) {
+        temp = current;
+        current = current->next;
+        temp->next = NULL;
+
+        if(flag)
+        {
+            // add to a
+            if(*aRef == NULL)
+            {
+                // spcial case for the beginning of a
+                *aRef = temp;
+                aTracker = *aRef;
+            }
+            else
+            {
+                aTracker->next = temp;
+                aTracker = aTracker->next;
+            }
+        }
+        else
+        {
+            // add to b
+            if(*bRef == NULL)
+            {
+                // spcial case for the beginning of b
+                *bRef = temp;
+                bTracker = *bRef;
+            }
+            else
+            {
+                bTracker->next = temp;
+                bTracker = bTracker->next;
+            }
+        }
+
+        flag = !flag;
+    }
+    aTracker->next = NULL;
+    bTracker->next = NULL;
+}
+
+struct ListNode* ShuffleMerge_hao(struct ListNode* a, struct ListNode* b)
+{
+    struct ListNode* result = NULL;
+    struct ListNode* aTracker = a;
+    struct ListNode* bTracker = b;
+    struct ListNode* temp = NULL;
+    bool flag = true;
+
+    if(a == NULL)
+        return b;
+    else if(b == NULL)
+        return a;
+
+    while(true)
+    {
+        if(flag)
+        {
+            if(aTracker->next != NULL)
+            {
+                temp = aTracker;
+                aTracker = aTracker->next;
+                temp->next = NULL;
+                Append(&result, &temp);
+            }
+            else
+            {
+                temp = aTracker;
+                Append(&result, &temp);
+                Append(&result, &bTracker);
+                return result;
+            }
+        }
+        else
+        {
+            if(bTracker->next != NULL)
+            {
+                temp = bTracker;
+                bTracker = bTracker->next;
+                temp->next = NULL;
+                Append(&result, &temp);
+            }
+            else
+            {
+                temp = bTracker;
+                Append(&result, &temp);
+                Append(&result, &aTracker);
+
+                return result;
+            }
+        }
+        flag = !flag;
+    }
+}
+
+struct ListNode* ShuffleMerge(struct ListNode* a, struct ListNode* b) {
+    struct ListNode dummy;
+    struct ListNode* tail = &dummy;
+    dummy.next = NULL;
+
+    while(1) {
+        if(a == NULL) {
+            tail->next = b;
+            break;
+        }
+        else if(b == NULL) {
+            tail->next = a;
+            break;
+        }
+        else {
+            tail->next = a;
+            tail = a;
+            a = a->next;
+            tail->next = b;
+            tail = b;
+            b = b->next;
+        }
+    }
+
+    return (dummy.next);
 }

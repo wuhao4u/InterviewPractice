@@ -61,32 +61,74 @@ void InsertNthTest()
     DeleteList(&head);
 }
 
-void SortedInsert(struct ListNode** headRef, struct ListNode* newNode) {
-    struct ListNode* current = *headRef;
-
-    while(current != NULL) {
-        if(newNode->val < current->next->val) {
-            newNode->next = current->next;
-            current->next = newNode;
-            return;
-        }
-        current = current->next;
-    }
-}
-
 void SortedInsertTest()
 {
     struct ListNode* head = BuildByLength(10);
     struct ListNode* nNode = malloc(sizeof(struct ListNode));
     nNode->val = 3;
     nNode->next = NULL;
+
+    struct ListNode testNode;
+    testNode.val = 10;
+    testNode.next = NULL;
     printf("---Before Insert\n");
     PrintList(head);
     SortedInsert(&head, nNode);
+    SortedInsert(&head, &testNode);
 
     printf("---After Insert\n");
     PrintList(head);
 
+    printf("---Insert in the end\n");
+    struct ListNode* nNode1 = malloc(sizeof(struct ListNode));
+    nNode1->val = 11;
+    nNode1->next = NULL;
+    SortedInsert(&head, nNode1);
+    PrintList(head);
+
+    printf("---Insert in the beginning\n");
+    struct ListNode* nNode2 = malloc(sizeof(struct ListNode));
+    nNode2->val  = -1;
+    nNode2->next = NULL;
+    SortedInsert(&head, nNode2);
+    PrintList(head);
+}
+
+void InsertSortTest()
+{
+    // create an unsorted list
+    struct ListNode* head = BuildByLength(10);
+    Push(&head, 11);
+    Push(&head, 5);
+    InsertNth(&head, 2, 8);
+    InsertNth(&head, 7, 0);
+    InsertNth(&head, Length(head), -1);
+    InsertNth(&head, Length(head), 4);
+    PrintList(head);
+
+    printf("---After sort\n");
+    // sort
+    InsertSort(&head);
+    PrintList(head);
+}
+
+void AppendTest()
+{
+    // struct ListNode* a = BuildByLength(2);
+    struct ListNode* a = NULL;
+    struct ListNode* b = NULL;
+    Push(&b, 4);
+    Push(&b, 3);
+
+    printf("---List A\n");
+    PrintList(a);
+
+    printf("---List B\n");
+    PrintList(b);
+
+    printf("---Appended B to A\n");
+    Append(&a, &b);
+    PrintList(a);
 }
 
 int main(int argc, char const *argv[])
@@ -96,7 +138,9 @@ int main(int argc, char const *argv[])
     // DeleteListTest();
     // PopTest();
     // InsertNthTest();
-    SortedInsertTest();
+    // SortedInsertTest();
+    InsertSortTest();
+    // AppendTest();
 
     return 0;
 }
