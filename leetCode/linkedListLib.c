@@ -69,8 +69,8 @@ void PrintList(struct ListNode* head) {
 void Push(struct ListNode** headRef, int val)
 {
     struct ListNode* newNode = malloc(sizeof(struct ListNode));
-    printf("headRef: %p\n", headRef);
-    printf("*headRef: %p\n", *headRef);
+    // printf("headRef: %p\n", headRef);
+    // printf("*headRef: %p\n", *headRef);
 
     newNode->val = val;
     newNode->next = *headRef;
@@ -316,7 +316,7 @@ void FrontBackSplit(struct ListNode* source,
     else
         len = (len+1)/2 - 1;
 
-    printf("1st half length: %d\n", len);
+    // printf("1st half length: %d\n", len);
 
     *frontRef = source;
     struct ListNode* tracker = source;
@@ -330,6 +330,26 @@ void FrontBackSplit(struct ListNode* source,
     *backRef = tracker->next;
     tracker->next = NULL;
 
+}
+
+void RemoveDuplicates(struct ListNode* head)
+{
+    struct ListNode* current = head;
+    struct ListNode* temp = NULL;
+
+    while(current->next != NULL) {
+        if(current->val == current->next->val)
+        {
+            // remove the list
+            temp = current->next;
+            current->next = current->next->next;
+            temp->next = NULL;
+            free(temp);
+
+            continue;
+        }
+        current = current->next;
+    }
 }
 
 void MoveNode(struct ListNode** destRef, struct ListNode** sourceRef)
@@ -473,4 +493,132 @@ struct ListNode* ShuffleMerge(struct ListNode* a, struct ListNode* b) {
     }
 
     return (dummy.next);
+}
+
+struct ListNode* SortedMerge(struct ListNode* a, struct ListNode* b)
+{
+    struct ListNode dummy;
+    struct ListNode* tail = &dummy;
+    dummy.next = NULL;
+
+    while(1) {
+        if(a == NULL) {
+            tail->next = b;
+            break;
+        }
+        else if(b == NULL) {
+            tail->next = a;
+            break;
+        }
+        else {
+            if(a->val < b->val)
+            {
+                tail->next = a;
+                tail = a;
+                a = a->next;
+            }
+            else
+            {
+                tail->next = b;
+                tail = b;
+                b = b->next;                
+            }
+        }
+    }
+
+    return (dummy.next);
+}
+
+void MergeSort(struct ListNode** headRef)
+{
+    struct ListNode* a = NULL;
+    struct ListNode* b = NULL;
+    FrontBackSplit(*headRef, &a, &b);
+    if(Length(a) > 1)
+        MergeSort(&a);
+    if(Length(b) > 1)
+        MergeSort(&b);
+    *headRef = SortedMerge(a, b);
+}
+
+struct ListNode* SortedIntersect(struct ListNode* a, struct ListNode* b)
+{
+    struct ListNode* result = NULL;
+    
+    while(true) {
+        if(a == NULL || b == NULL)
+            return result;
+        else
+        {
+            if(a->val < b->val)
+            {
+                a = a->next;
+            }
+            else if(a->val > b->val)
+            {
+                b = b->next;
+            }
+            else
+            {
+                Push(&result, a->val);
+                a = a->next;
+                b = b->next;
+            }
+        }
+    }
+    return result;
+}
+
+void Reverse(struct ListNode** headRef)
+{
+    assert(*headRef != NULL);
+    struct ListNode* result = NULL;
+    struct ListNode* current = *headRef;
+
+    struct ListNode* rTracker = result;
+    while(current != NULL) {
+        MoveNode(&result, headRef);
+        current = current->next;
+    }
+    *headRef = result;
+}
+
+void Reverse_hao(struct ListNode** headRef)
+{
+    assert(*headRef != NULL);
+    struct ListNode* result = NULL;
+    struct ListNode* current = *headRef;
+    struct ListNode* temp = NULL;
+
+    while(current != NULL) {
+        // MoveNode(&result, headRef);
+        temp = current;
+        current = current->next;
+        temp->next = result;
+        result = temp;
+    }
+
+    *headRef = result;
+}
+
+void RecursiveReverse(struct ListNode** headRef)
+{
+    struct ListNode* first;
+    struct ListNode* rest;
+
+    if(*headRef == NULL)
+        return;
+
+    first = *headRef;
+    rest = first->next;
+
+    if(rest == NULL)
+        return;
+    
+    RecursiveReverse(&rest);
+
+    first->next->next = first;
+    first->next = NULL;
+
+    *headRef = rest;
 }
