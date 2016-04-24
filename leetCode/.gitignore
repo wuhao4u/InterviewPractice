@@ -1,2 +1,7 @@
 # ignore .o files
-*.o
+*
+!*.c
+!*.h
+!*.cpp
+!Makefile
+!makefile
