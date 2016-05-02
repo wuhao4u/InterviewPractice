@@ -4,8 +4,7 @@
 #include "linkedListLib.h"
 
 struct ListNode* oddEvenList(struct ListNode* head) {
-    if(!head) return head;
-    if(!head->next) return head;
+    if(!head || !head->next) return head;
 
     bool flag = true;
     struct ListNode* current = head;
@@ -36,8 +35,8 @@ struct ListNode* oddEvenList(struct ListNode* head) {
 
 int main(int argc, char const *argv[])
 {
-    // test case 1: normal
-    // struct ListNode* head = BuildByLength(11);
+    // test case 1: normal case
+    struct ListNode* head = BuildByLength(11);
     // test case 2: 0 element    
     // struct ListNode* head = NULL;
     // test case 3: 1 ele
@@ -47,7 +46,7 @@ int main(int argc, char const *argv[])
     // test case 5: 3 ele, 1,2,3
     // struct ListNode* head = BuildByLength(3);
     // test case 5: 4 ele, 1,2,3,4
-    struct ListNode* head = BuildByLength(4);
+    // struct ListNode* head = BuildByLength(4);
 
     Length(head);
 
