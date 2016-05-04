@@ -66,8 +66,8 @@ struct ListNode* reverseBetween(struct ListNode* head, int m, int n) {
 int main(int argc, char const *argv[]) {
     struct ListNode* result;
     // case 1, 1,2,3,4,5; 2,4
-    // struct ListNode* head = BuildByLength(5);
-    // result = reverseBetween(head, 2, 4);
+    struct ListNode* head = BuildByLength(5);
+    result = reverseBetween(head, 2, 4);
 
     // case 4, 1,2,3,4,5; 4,5
     // result = reverseBetween(head, 4,5);
@@ -91,9 +91,9 @@ int main(int argc, char const *argv[]) {
     // result = reverseBetween(head, 1, 2);
 
     // case 3, 1; 1, 2
-    struct ListNode* head;
-    Push(&head, 1);
-    result = reverseBetween(head, 1, 1);
+    // struct ListNode* head;
+    // Push(&head, 1);
+    // result = reverseBetween(head, 1, 1);
 
     // PrintList(head);
     printf("---\n");
