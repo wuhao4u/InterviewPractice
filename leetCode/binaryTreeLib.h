@@ -14,5 +14,13 @@ struct TreeNode* insert(struct TreeNode* node, int data);
 struct TreeNode* build123a();
 struct TreeNode* build123b();
 struct TreeNode* build123c();
+struct TreeNode* buildSampleBST();
+int size(struct TreeNode* node);
+int maxDepth(struct TreeNode* node);
+int minValue_iter(struct TreeNode* root);
+int minValue_recur(struct TreeNode* root);
+void printTree(struct TreeNode* node);
+void printPostorder(struct TreeNode* node);
+int hasPathSum(struct TreeNode* node, int sum);
 
 #endif
