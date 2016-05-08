@@ -8,13 +8,13 @@ void build123Test() {
     struct TreeNode* test2 = build123b();
     struct TreeNode* test3 = build123c();
 
-    printf("%d\n", test1->val);
-    printf("%d\n", test1->left->val);
-    printf("%d\n", test1->right->val);
+    printf("%d\n", test3->val);
+    printf("%d\n", test3->left->val);
+    printf("%d\n", test3->right->val);
 }
 
 void sizeTest() {
-    struct TreeNode* test = build123a();
+    struct TreeNode* test = build123c();
     struct TreeNode* test1 = buildSampleBST(1);
     printf("size of the tree 123 is %d.\n", size(test));
     printf("size of the sample BST is %d\n", size(test1));
@@ -74,4 +74,30 @@ void hasPathSumTest() {
 
     bool res2 = hasPathSum(test, 45);
     printf("%s\n", res2 ? "true" : "false");
+}
+
+void printPathsTest() {
+    struct TreeNode* test = buildSampleBST(1);
+    printPaths(test);
+    printf("---\n");
+    struct TreeNode* test1 = build123c();
+    printPaths(test1);
+}
+
+void mirrorTest() {
+    struct TreeNode* test = buildSampleBST(3);
+    // struct TreeNode* test = build123c();
+    printTree(test);
+    printf("---after mirror\n");
+    mirror(test);
+    printTree(test);    
+}
+
+void doubleTreeTest() {
+    // struct TreeNode* test = buildSampleBST(1);
+    struct TreeNode* test = build123c();
+    printTree(test);
+    printf("---after doubling\n");
+    doubleTree(test);
+    printTree(test);
 }

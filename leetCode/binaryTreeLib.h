@@ -22,5 +22,8 @@ int minValue_recur(struct TreeNode* root);
 void printTree(struct TreeNode* node);
 void printPostorder(struct TreeNode* node);
 int hasPathSum(struct TreeNode* node, int sum);
+void printPaths(struct TreeNode* node);
+void mirror(struct TreeNode* node);
+void doubleTree(struct TreeNode* node);
 
 #endif

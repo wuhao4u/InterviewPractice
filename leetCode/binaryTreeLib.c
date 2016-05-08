@@ -80,7 +80,7 @@ struct TreeNode* build123c() {
     root = insert(root, 2);
     root = insert(root, 1);
     root = insert(root, 3);
-    return root;
+    return(root);
 }
 
 struct TreeNode* buildSampleBST(int option) {
@@ -201,4 +201,54 @@ int hasPathSum(struct TreeNode* node, int sum) {
 
         return (lRes || rRes);
     }
+}
+
+static void printPathsRecur(struct TreeNode* node, int path[], int pathLen) {
+    // printf("here[%d]: %d, wat[%d]\n", pathLen, node->val, path[pathLen]);
+
+    if(!node) return;
+    path[pathLen] = node->val;
+    if((!node->left) && (!node->right)) {
+        for (int i = 0; i < pathLen + 1; ++i) {
+            printf("%d ", path[i]);
+        }
+        printf("\n");
+    }
+    else {        
+        if (node->left)
+            printPathsRecur(node->left, path, pathLen+1);
+        if (node->right)
+            printPathsRecur(node->right, path, pathLen+1);
+    }
+}
+
+void printPaths(struct TreeNode* node) {
+    if(!node) return;
+    else {
+        // the longest path possible is not going to exceed the max depth of the tree
+        int path[maxDepth(node)];
+        printPathsRecur(node, path, 0);
+    }
+}
+
+void mirror(struct TreeNode* node) {
+    struct TreeNode* temp = NULL;
+    if(node->left || node->right) {
+        temp = node->left;
+        node->left = node->right;
+        node->right = temp;
+
+        if(node->left) mirror(node->left);
+        if(node->right) mirror(node->right);
+    }
+}
+
+void doubleTree(struct TreeNode* node) {
+    if(node->left) doubleTree(node->left);
+    if(node->right) doubleTree(node->right);
+
+    struct TreeNode* temp = node->left;
+    struct TreeNode* dup = newNode(node->val);
+    dup->left = temp;
+    node->left = dup;
 }

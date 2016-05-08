@@ -8,5 +8,8 @@ void minValueTest();
 void printTreeTest();
 void printPostorderTest();
 void hasPathSumTest();
+void printPathsTest();
+void mirrorTest();
+void doubleTreeTest();
 
 #endif
