@@ -1,3 +1,5 @@
+#pragma once
+
 #ifndef BINARY_TREE_TESTS
 #define BINARY_TREE_TESTS
 
@@ -11,5 +13,9 @@ void hasPathSumTest();
 void printPathsTest();
 void mirrorTest();
 void doubleTreeTest();
+void sameTreeTest();
+void countTreesTest();
+void isBSTTest();
+void isBST2Test();
 
 #endif

@@ -85,7 +85,7 @@ void printPathsTest() {
 }
 
 void mirrorTest() {
-    struct TreeNode* test = buildSampleBST(3);
+    struct TreeNode* test = buildSampleBST(2);
     // struct TreeNode* test = build123c();
     printTree(test);
     printf("---after mirror\n");
@@ -100,4 +100,46 @@ void doubleTreeTest() {
     printf("---after doubling\n");
     doubleTree(test);
     printTree(test);
+}
+
+void sameTreeTest() {
+    // struct TreeNode* t1 = build123a();
+    // struct TreeNode* t2 = build123b();
+
+    struct TreeNode* t1 = buildSampleBST(1);
+    struct TreeNode* t2 = buildSampleBST(1);
+
+    printf("---tree1\n");
+    printTree(t1);
+    printf("---tree2\n");
+    printTree(t2);
+    printf("---Are the 2 tree same?\n");
+    printf("%s\n", sameTree(t1, t2) ? "true" : "false");
+}
+
+void countTreesTest() {
+    int numKeys = 0;
+    while(1) {
+        printf("Enter a value: ");
+        scanf("%d", &numKeys);
+        printf("count tree result: %d\n", countTrees(numKeys));
+    }
+}
+
+void isBSTTest() {
+    struct TreeNode* bst = buildSampleBST(2);
+    struct TreeNode* bst1 = build123c();
+    struct TreeNode* bt = buildSampleBinaryTree();
+    printf("bst: isBST? %s\n", isBST(bst) ? "true" : "false");
+    printf("bst1: isBST? %s\n", isBST(bst1) ? "true" : "false");
+    printf("bt: isBST? %s\n", isBST(bt) ? "true" : "false");
+}
+
+void isBST2Test() {
+    struct TreeNode* bst = buildSampleBST(2);
+    struct TreeNode* bst1 = build123c();
+    struct TreeNode* bt = buildSampleBinaryTree();
+    printf("bst: isBST2? %s\n", isBST2(bst) ? "true" : "false");
+    printf("bst1: isBST2? %s\n", isBST2(bst1) ? "true" : "false");
+    printf("bt: isBST2? %s\n", isBST2(bt) ? "true" : "false");
 }

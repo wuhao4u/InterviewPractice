@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
+#include <limits.h>
 #include "binaryTreeLib.h"
 #include "binaryTreeTests.h"
 
@@ -13,7 +14,11 @@ int main(int argc, char const *argv[]) {
     // hasPathSumTest();
     // printPathsTest();
     // mirrorTest();
-    doubleTreeTest();
+    // doubleTreeTest();
+    // sameTreeTest();
+    // countTreesTest();
+    // isBSTTest();
+    isBST2Test();
 
     return 0;
 }

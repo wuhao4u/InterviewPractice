@@ -107,31 +107,56 @@ struct TreeNode* buildSampleBST(int option) {
             root = insert(root, 3);
             break;
 
-        case 3:
-            root = newNode(5);
-            struct TreeNode* rl = newNode(4);
-            struct TreeNode* rr = newNode(8);
-            root->left = rl;
-            root->right = rr;
+        // case 3:
+        //     root = newNode(5);
+        //     struct TreeNode* rl = newNode(4);
+        //     struct TreeNode* rr = newNode(8);
+        //     root->left = rl;
+        //     root->right = rr;
 
-            struct TreeNode* rll = newNode(11);
-            struct TreeNode* rlll = newNode(7);
-            struct TreeNode* rllr = newNode(2);
-            rll->left = rlll;
-            rll->right = rllr;
+        //     struct TreeNode* rll = newNode(11);
+        //     struct TreeNode* rlll = newNode(7);
+        //     struct TreeNode* rllr = newNode(2);
+        //     rll->left = rlll;
+        //     rll->right = rllr;
 
-            struct TreeNode* rrl = newNode(13);
-            struct TreeNode* rrr = newNode(4);
-            rr->left = rrl;
-            rr->right = rrr;
+        //     struct TreeNode* rrl = newNode(13);
+        //     struct TreeNode* rrr = newNode(4);
+        //     rr->left = rrl;
+        //     rr->right = rrr;
 
-            struct TreeNode* rrrr = newNode(1);
-            rrr->right = rrrr;
-            break;
+        //     struct TreeNode* rrrr = newNode(1);
+        //     rrr->right = rrrr;
+        //     break;
         default:
             break;
 
     }
+
+    return root;
+}
+
+struct TreeNode* buildSampleBinaryTree() {
+    struct TreeNode* root;
+
+    root = newNode(2);
+    struct TreeNode* seven = newNode(7);
+    struct TreeNode* five = newNode(5);
+    struct TreeNode* two = newNode(2);
+    struct TreeNode* six = newNode(6);
+    struct TreeNode* nine = newNode(9);
+    struct TreeNode* five1 = newNode(5);
+    struct TreeNode* eleven = newNode(11);
+    struct TreeNode* four = newNode(4);
+
+    root->left = seven;
+    root->right = five;
+    seven->left = two;
+    seven->right = six;
+    six->left = five1;
+    six->right = eleven;
+    five->right = nine;
+    nine->left = four;
 
     return root;
 }
@@ -170,6 +195,15 @@ int minValue_iter(struct TreeNode* root) {
 int minValue_recur(struct TreeNode* root) {
     if (root->left) return minValue_recur(root->left);
     else return root->val;
+}
+
+int maxValue(struct TreeNode* root) {
+    struct TreeNode* current = root;
+
+    while(current->right != NULL) {
+        current = current->right;
+    }
+    return current->val;
 }
 
 void printTree(struct TreeNode* node) {
@@ -251,4 +285,68 @@ void doubleTree(struct TreeNode* node) {
     struct TreeNode* dup = newNode(node->val);
     dup->left = temp;
     node->left = dup;
+}
+
+int sameTree(struct TreeNode* a, struct TreeNode* b) {
+    int selfBool, leftBool, rightBool;
+
+    selfBool = (a->val == b->val);
+
+    if(a->left && b->left) {
+        leftBool = sameTree(a->left, b->left);
+    } else {
+        if((!a->left) && (!b->left)) leftBool = true;
+        else leftBool = false;
+    }
+
+    if(a->right && b->right) {
+        rightBool = sameTree(a->right, b->right);
+    } else {
+        if((!a->right) && (!b->right)) rightBool = true;
+        else rightBool = false;
+    }
+
+    return (selfBool && leftBool && rightBool);
+}
+
+int countTrees(int numKeys) {
+    // catalan number
+    int result = 0;
+    if(numKeys == 0 || numKeys == 1) {
+        result = 1;
+    }
+    else {
+        for (int i = 1; i < numKeys+1; ++i) {
+            result += countTrees(i - 1) * countTrees(numKeys - i);
+        }
+    }
+    return result;
+}
+
+int isBST(struct TreeNode* node) {
+    if(node == NULL) return true;
+
+    if(node->left != NULL && maxValue(node->left) > node->val)
+        return false;
+
+    if(node->right != NULL && minValue_iter(node->right) <= node->val)
+        return false;
+
+    if(!isBST(node->left) || !isBST(node->right))
+        return false;
+
+    return true;
+}
+
+static int isBSTRecur(struct TreeNode* node, int min, int max) {
+    if(!node) return true;
+
+    if(node->val < min || node->val > max) return false;
+
+    return isBSTRecur(node->left, min, node->val) 
+        && isBSTRecur(node->right, node->val + 1, max);
+}
+
+int isBST2(struct TreeNode* node) {
+    return isBSTRecur(node, INT_MIN, INT_MAX);
 }

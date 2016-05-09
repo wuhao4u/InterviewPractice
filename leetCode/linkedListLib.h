@@ -1,3 +1,5 @@
+#pragma once
+
 #ifndef LINKED_LIST_LIB
 #define LINKED_LIST_LIB
 
