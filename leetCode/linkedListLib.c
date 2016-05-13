@@ -47,7 +47,6 @@ int Length(struct ListNode* head) {
     struct ListNode* current = head;
 
     while(current != NULL) {
-        // printf("%d\n", current->val);
         current = current->next;
         count++;
     }

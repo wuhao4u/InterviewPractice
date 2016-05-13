@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include <limits.h>
 #include "binaryTreeLib.h"
 
 int lookup(struct TreeNode* node, int target) {
@@ -207,6 +208,7 @@ int maxValue(struct TreeNode* root) {
 }
 
 void printTree(struct TreeNode* node) {
+    if(node == NULL) return;
     if(node->left != NULL) printTree(node->left);
     printf("%d\n", node->val);
     if(node->right != NULL) printTree(node->right);
