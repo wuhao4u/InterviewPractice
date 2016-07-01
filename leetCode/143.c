@@ -50,7 +50,7 @@ void reorderList(struct ListNode* head) {
 }
 
 int main(int argc, char const *argv[]) {
-    struct ListNode* test = BuildByLength(1);
+    struct ListNode* test = BuildByLength(6);
     PrintList(test);
 
     printf("---\n");
