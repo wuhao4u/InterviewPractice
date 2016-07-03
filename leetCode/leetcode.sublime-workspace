@@ -1,0 +1,1406 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pri",
+				"PrintList"
+			],
+			[
+				"print",
+				"PrintList"
+			],
+			[
+				"mi",
+				"mid"
+			],
+			[
+				"prin",
+				"PrintList"
+			],
+			[
+				"tail",
+				"tailTracer"
+			],
+			[
+				"tra",
+				"tailTracer"
+			],
+			[
+				"sot",
+				"sortedList"
+			],
+			[
+				"sorted",
+				"sortedListCur"
+			],
+			[
+				"sor",
+				"sortedList"
+			],
+			[
+				"holeP",
+				"holePostision-1"
+			],
+			[
+				"mA",
+				"mArray"
+			],
+			[
+				"hole",
+				"holePostision"
+			],
+			[
+				"insertion",
+				"insertionSortArray"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"la",
+				"la"
+			],
+			[
+				"rotat",
+				"rotateRight"
+			],
+			[
+				"rota",
+				"rotateRight"
+			],
+			[
+				"tes",
+				"test1"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"righ",
+				"rightNode"
+			],
+			[
+				"lef",
+				"leftNode"
+			],
+			[
+				"sort",
+				"sortedListToBSTRecur"
+			],
+			[
+				"isB",
+				"isBSTTest2"
+			],
+			[
+				"isBs",
+				"isBST2"
+			],
+			[
+				"int",
+				"INT_MIN"
+			],
+			[
+				"isBST",
+				"isBSTRecur"
+			],
+			[
+				"isBS",
+				"isBSTRecur"
+			],
+			[
+				"is",
+				"isBST"
+			],
+			[
+				"buil",
+				"build123Test"
+			],
+			[
+				"cout",
+				"countTrees"
+			],
+			[
+				"coutT",
+				"countTreesTest"
+			],
+			[
+				"left",
+				"leftBool"
+			],
+			[
+				"right",
+				"rightTreeBool"
+			],
+			[
+				"ri",
+				"rightBool"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"sameT",
+				"sameTreeTest"
+			],
+			[
+				"same",
+				"sameTree"
+			],
+			[
+				"bi",
+				"build123Test"
+			],
+			[
+				"doubleTre",
+				"doubleTreeTest"
+			],
+			[
+				"printTre",
+				"printTree"
+			],
+			[
+				"doub",
+				"doubleTree"
+			],
+			[
+				"mir",
+				"mirror"
+			],
+			[
+				"mirr",
+				"mirrorTest"
+			],
+			[
+				"path",
+				"pathLen"
+			],
+			[
+				"printPaths",
+				"printPathsRecur"
+			],
+			[
+				"pr",
+				"printf	printf …"
+			],
+			[
+				"printPa",
+				"printPathsTest"
+			],
+			[
+				"sum",
+				"sum"
+			],
+			[
+				"test",
+				"test"
+			],
+			[
+				"has",
+				"hasPathSum"
+			],
+			[
+				"bu",
+				"build123Test"
+			],
+			[
+				"hasP",
+				"hasPathSumTest"
+			],
+			[
+				"new",
+				"newNode"
+			],
+			[
+				"printTree",
+				"printTreeTest"
+			],
+			[
+				"hea",
+				"head1"
+			],
+			[
+				"build",
+				"buildSampleBST"
+			],
+			[
+				"te",
+				"test1"
+			],
+			[
+				"bin",
+				"binaryTreeLib"
+			],
+			[
+				"usin",
+				"usings	Using statement"
+			],
+			[
+				"num1",
+				"num1Char"
+			],
+			[
+				"num",
+				"num1Char"
+			],
+			[
+				"nu",
+				"num1"
+			],
+			[
+				"l1",
+				"l1Tracker"
+			],
+			[
+				"revse",
+				"reversedList"
+			],
+			[
+				"an",
+				"anchorTail"
+			],
+			[
+				"anchor",
+				"anchorHead"
+			],
+			[
+				"rese",
+				"reversedList"
+			],
+			[
+				"reversed",
+				"reversedList"
+			],
+			[
+				"rever",
+				"reversedList"
+			],
+			[
+				"anch",
+				"anchorTail"
+			],
+			[
+				"grea",
+				"greaterThan"
+			],
+			[
+				"gre",
+				"greaterThan"
+			],
+			[
+				"gr",
+				"greaterThan"
+			],
+			[
+				"delete",
+				"deleteDuplicates"
+			],
+			[
+				"odd",
+				"oddHead"
+			],
+			[
+				"even",
+				"evenHead"
+			],
+			[
+				"eve",
+				"evenHead"
+			],
+			[
+				"rem",
+				"remover"
+			],
+			[
+				"remov",
+				"removeNthFromEnd"
+			],
+			[
+				"l2",
+				"l2Tracker"
+			],
+			[
+				"head",
+				"headA"
+			],
+			[
+				"prev",
+				"previous"
+			],
+			[
+				"remo",
+				"removeElements"
+			],
+			[
+				"retur",
+				"return"
+			],
+			[
+				"Rever",
+				"Reverse"
+			],
+			[
+				"Revers",
+				"ReverseTest"
+			],
+			[
+				"SortedIn",
+				"SortedIntersectTest"
+			],
+			[
+				"Merge",
+				"MergeSort"
+			],
+			[
+				"Fro",
+				"FrontBackSplit"
+			],
+			[
+				"Sorted",
+				"SortedInsert"
+			],
+			[
+				"nN",
+				"nNode1"
+			],
+			[
+				"B",
+				"BuildByLength"
+			],
+			[
+				"Sot",
+				"SortedMerge"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"Alt",
+				"AlternatingSplitTest"
+			],
+			[
+				"Move",
+				"MoveNode"
+			],
+			[
+				"Re",
+				"RemoveDuplicates"
+			],
+			[
+				"back",
+				"backRef"
+			],
+			[
+				"fron",
+				"frontRef"
+			],
+			[
+				"fr",
+				"frontRef"
+			],
+			[
+				"front",
+				"FrontBackSplit"
+			],
+			[
+				"app",
+				"Append"
+			],
+			[
+				"Ap",
+				"Append"
+			],
+			[
+				"App",
+				"AppendTest"
+			],
+			[
+				"Inser",
+				"InsertNth"
+			],
+			[
+				"List",
+				"ListNode"
+			],
+			[
+				"Li",
+				"ListNode"
+			],
+			[
+				"Pop",
+				"PopTest"
+			],
+			[
+				"Dele",
+				"DeleteListTest"
+			],
+			[
+				"Bui",
+				"BuildOneTwoThree"
+			],
+			[
+				"Getn",
+				"GetNthTest"
+			],
+			[
+				"ne",
+				"newNode"
+			],
+			[
+				"Bi",
+				"BuildOneTwoThree1"
+			],
+			[
+				"for",
+				"for	For Loop"
+			],
+			[
+				"beg",
+				"begin"
+			],
+			[
+				"my",
+				"myints1"
+			],
+			[
+				"using",
+				"usingt	Using statement (templated)"
+			],
+			[
+				"ma",
+				"MAX_DATA"
+			],
+			[
+				"fget",
+				"fgetc"
+			],
+			[
+				"read",
+				"read_string"
+			],
+			[
+				"m",
+				"m_str"
+			],
+			[
+				"ar",
+				"argc"
+			],
+			[
+				"inf",
+				"log_info"
+			],
+			[
+				"fg",
+				"fgetc"
+			],
+			[
+				"p",
+				"plot"
+			],
+			[
+				"first",
+				"first_name"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "107.c",
+			"settings":
+			{
+				"buffer_size": 296,
+				"line_ending": "Unix",
+				"name": "int** levelOrderBottom(struct TreeNode* root, int*"
+			}
+		},
+		{
+			"file": "binaryTreeLib.c",
+			"settings":
+			{
+				"buffer_size": 8951,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "binaryTreeLib.h",
+			"settings":
+			{
+				"buffer_size": 1060,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": ":w",
+		"selected_items":
+		[
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				":s",
+				":w - Save"
+			],
+			[
+				":we",
+				":w - Save"
+			],
+			[
+				":q",
+				"Set Syntax: SQL"
+			],
+			[
+				":",
+				":w - Save"
+			],
+			[
+				":ew",
+				":w - Save"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"prefer",
+				"Preferences: Settings - User"
+			],
+			[
+				":c++",
+				"Set Syntax: C++"
+			],
+			[
+				"project",
+				"Project: Save As"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"defa",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"snippet",
+				"Snippet: #include <…>"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"sync",
+				"Set Syntax: C++"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"default",
+				"Preferences: Settings - Default"
+			],
+			[
+				"linter",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"bro",
+				"Preferences: Browse Packages"
+			],
+			[
+				"fetch",
+				"Fetch: File"
+			],
+			[
+				"subli",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"folder",
+				"Project: Add Folder"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"fet",
+				"Fetch: File"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"sy",
+				"Set Syntax: C#"
+			],
+			[
+				"snipp",
+				"Snippet: New Property"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"page",
+				"Preferences: Browse Packages"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"sidebar",
+				"View: Toggle Side Bar"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"pwd"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/linkedListLib.h",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/linkedListLib.c",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/binaryTreeProblems.c",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/143.c",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/143b.c",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/143.cpp",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/142.c",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/147.c",
+		"/Users/wuhao/Documents/GitHub/dataStructureAlgorithm/2_greedy_algorithms_starter_files/fractional_knapsack/fractional_knapsack.cpp",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/148.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/.gitignore",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/61.c",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/109.c",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/binaryTreeTests.h",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/binaryTreeTests.c",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/wat.c",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/binaryTreeLib.c",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/binaryTreeLib.h",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/binaryTreeLib.cpp",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/binaryTreeTests.cpp",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/binaryTreeProblems.cpp",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/binaryTreeProblems_hao.cpp",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/linkedListProblems.c",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/linkedListTests.c",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/linkedListTests.h",
+		"/Users/wuhao/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/2.c",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/92.c",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/86.c",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/82.c",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/328.c",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/83.c",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/141.c",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/21.c",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/19.c",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/203.c",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/24.c",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/160.c",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/linkedListProblems1.c",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/linkedListLib1.c",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/assertSample.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/dbg.h",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/234.c",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/linkedList1.c",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/Makefile328",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/283.cpp",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/258_Add_Digits.c",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/206_Reverse_Linked_List.c",
+		"/Users/wuhao/.ShadowsocksX/gfwlist.js",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/283.c",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/283_Move_Zeroes.cpp",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/258_Add_Digits.cpp",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/292_Nim_Game.cpp",
+		"/Users/wuhao/Documents/GitHub/c/stringSamples/ex2.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex25/getc.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex25/ex25.c",
+		"/Users/wuhao/Documents/GitHub/machineLearning/machine-learning-ex1/ex1/plotData.m",
+		"/Users/wuhao/Documents/GitHub/cool/2.cl",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex24/ex24b.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex24/forLoop.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex24/ex24.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex23/ex23.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex22/dbg.h",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex22/ex22_main.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex22/ex22.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex22/ex22.h",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex22/Makefile",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex22/passingCompare.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex20/Makefile",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex20/ex20.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex20/dbg.h",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex20.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex19/ex19.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex19/Makefile",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex19/map.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex19/map.h",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex19/ex19.h",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex17.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex18.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/object.h",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/object.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex18-o.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex17-stack.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/quickSort.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/quicksort.js",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex17-global.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/stack_hao.py",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex17.bash",
+		"/Users/wuhao/bin/datecp",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex17.sh",
+		"/Users/wuhao/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/wuhao/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex16.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/db.dat",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex16-noPointer.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex15.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex15-ex4.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex9-pointer.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex9.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex15-ex1.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex15-1.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex15-ex2.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex13.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex13-ec1.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex14.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex10.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex11.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex12.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex10.py",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/loops.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex9-3.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex9-4.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex7.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex8.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex4.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex5.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex6.c",
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex3/ex3.c",
+		"/Users/wuhao/Documents/GitHub/c/lynda-CEsential/Exercise Files/10_07.c",
+		"/Users/wuhao/Documents/GitHub/c/lynda-CEsential/challenge6.c",
+		"/Users/wuhao/Documents/GitHub/c/lynda-CEsential/challenge5/rand.c",
+		"/Users/wuhao/Documents/GitHub/c/lynda-CEsential/challenge5/main.c",
+		"/Users/wuhao/Documents/GitHub/c/lynda-CEsential/challenge4.c",
+		"/Users/wuhao/Documents/GitHub/c/lynda-CEsential/challenge4",
+		"/Users/wuhao/Documents/GitHub/c/lynda-CEsential/Exercise Files/07_02.c",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter06-hao/grade_analysis.cc",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter06-hao/grade.cc",
+		"/Users/wuhao/Documents/GitHub/accpp/chapter06-hao/grading/6-5.cc"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"shuffleMer",
+			"hao",
+			"Length",
+			"merge",
+			"reverse",
+			"print",
+			"Length",
+			"current->next",
+			"Nth",
+			"insert",
+			"result",
+			"\n    ",
+			"length",
+			"node",
+			"isBST",
+			"3)",
+			"max",
+			"left",
+			"min",
+			"left",
+			"right",
+			"test1",
+			"printTree",
+			"BST()",
+			"cout",
+			"two",
+			"test",
+			"depth",
+			"maxDepth",
+			"result",
+			" a",
+			"a",
+			"->data",
+			"loopup",
+			"%d",
+			"rT",
+			"num1",
+			"l1",
+			"l1Tracker",
+			"push",
+			"flag",
+			"head",
+			"shuffleMer",
+			"duplicate",
+			"aCur",
+			"dummy",
+			"MoveNode",
+			"LINKED_LIST_TESTS",
+			"Push",
+			"result",
+			"Push(",
+			"Push",
+			"SortedMer",
+			"Insert",
+			"sorted",
+			"nNode1",
+			"nNode1 = ",
+			"Append",
+			"append",
+			"hao",
+			"            temp = aTracker;\n                aTracker = aTracker->next;\n                temp->next = NULL;\n                Append(&result, &temp);\n                printf(\"here\\n\");                \n",
+			"\n                             ",
+			"aTracker",
+			"BuildOneTwoThree",
+			"struct",
+			"newNode",
+			"fTracker",
+			"malloc",
+			"cur",
+			"Push",
+			"nNode",
+			"head1",
+			"h",
+			"head1",
+			"len",
+			"push",
+			"val",
+			"malloc",
+			"pop",
+			"length",
+			"assert",
+			"data",
+			"node",
+			"data",
+			"node",
+			"BuildOneTwoThree1",
+			"Build",
+			"node",
+			"headRed",
+			"temp",
+			"head",
+			"headPrt",
+			"cur",
+			"printLinkedList",
+			"myints",
+			"first",
+			"lalala",
+			"%s",
+			"MAX_STRING_LEN",
+			"max_buffer",
+			"result",
+			"fgets",
+			"fmt",
+			"you",
+			"fscan",
+			"fscanf",
+			"fscan",
+			"fscanf",
+			"fgets",
+			"EyeColor",
+			"len",
+			"%d",
+			"count",
+			"errno",
+			"check",
+			"no debug",
+			"argv",
+			"errno",
+			"Map_atta",
+			"Map_attach",
+			"map_atta",
+			"damage",
+			"Monster",
+			"bad_guy",
+			"Map",
+			"switch",
+			"init",
+			"NEW"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "107.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 296,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								223,
+								223
+							]
+						],
+						"settings":
+						{
+							"auto_name": "int** levelOrderBottom(struct TreeNode* root, int*",
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "binaryTreeLib.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8951,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5256,
+								5256
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3179.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "binaryTreeLib.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1060,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								450,
+								450
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "leetcode.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ex22",
+				"ex/ex22/ex22.c"
+			],
+			[
+				"make",
+				"ex/ex22/Makefile"
+			],
+			[
+				"map.h",
+				"ex/ex19/map.h"
+			],
+			[
+				"ma",
+				"ex/ex19/map.c"
+			],
+			[
+				"map",
+				"ex/ex19/map.c"
+			],
+			[
+				"ex17",
+				"ex/ex17.c"
+			],
+			[
+				"makef",
+				"ex/ex19/Makefile"
+			],
+			[
+				"ex18.c",
+				"ex/ex18.c"
+			],
+			[
+				"objec",
+				"ex/ex19/object.h"
+			],
+			[
+				"obe",
+				"ex/ex19/object.c"
+			],
+			[
+				"bash",
+				"ex/ex17.bash"
+			],
+			[
+				"ex16.c",
+				"ex/ex16.c"
+			],
+			[
+				"ex15",
+				"ex/ex15.c"
+			],
+			[
+				"ex9",
+				"ex/ex9.c"
+			],
+			[
+				"",
+				"ex/ex10.c"
+			],
+			[
+				"urls.cc",
+				"accpp/chapter06-hao/urls.cc"
+			],
+			[
+				"urls.h",
+				"accpp/chapter06-hao/urls.h"
+			],
+			[
+				"analysis",
+				"accpp/chapter06/analysis.cc"
+			],
+			[
+				"grade_analysis",
+				"accpp/chapter06/grade_analysis.cc"
+			],
+			[
+				"palin",
+				"accpp/chapter06/palin.cc"
+			],
+			[
+				"main.cc",
+				"accpp/chapter05-hao/main.cc"
+			],
+			[
+				"main",
+				"accpp/chapter05-hao/main.cpp"
+			],
+			[
+				"text",
+				"accpp/chapter05-hao/test_extract_fails.cpp"
+			],
+			[
+				"test",
+				"accpp/chapter05-hao/test_extract_fails.h"
+			],
+			[
+				"5-2",
+				"accpp/chapter05-hao/5-2.cpp"
+			],
+			[
+				"5-1",
+				"accpp/chapter05-hao/5-1.cpp"
+			],
+			[
+				"grade",
+				"accpp/chapter05/grade.h"
+			],
+			[
+				"grade.h",
+				"accpp/chapter04/grade.h"
+			],
+			[
+				"4-",
+				"accpp/chapter04-Hao/4-7.cpp"
+			],
+			[
+				"runtime",
+				"accpp/run_time_measurer.cpp"
+			],
+			[
+				"studen",
+				"accpp/chapter04/Student_info.h"
+			],
+			[
+				"stu",
+				"accpp/chapter04/Student_info.cc"
+			],
+			[
+				"student",
+				"accpp/chapter04/Student_info.cc"
+			],
+			[
+				"grade.cc",
+				"accpp/chapter05/grade.cc"
+			],
+			[
+				"fox",
+				"accpp/data/fox"
+			],
+			[
+				"5-",
+				"accpp/chapter05/5-1.cpp"
+			],
+			[
+				"avg",
+				"accpp/chapter03/avg.cc"
+			],
+			[
+				"grades",
+				"accpp/data/grades"
+			],
+			[
+				"3-4",
+				"accpp/chapter03/3-4.cpp"
+			],
+			[
+				"3-3",
+				"accpp/chapter03/3-3.cpp"
+			],
+			[
+				"fram",
+				"accpp/chapter02/frame.cc"
+			],
+			[
+				"2-4",
+				"accpp/chapter02/2-4.cc"
+			],
+			[
+				"2-7",
+				"accpp/chapter02/2-7.cpp"
+			],
+			[
+				"2-",
+				"accpp/chapter02/2-4.cc"
+			],
+			[
+				"frame",
+				"accpp/chapter02/frame.cc"
+			],
+			[
+				".py",
+				"otherPrograms/test.py"
+			],
+			[
+				".cpp",
+				"helloWorld.cpp"
+			],
+			[
+				"subl",
+				"otherPrograms/subl_2.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 244.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
