@@ -6,8 +6,14 @@ import java.util.Random;
 public class Main {
 
     public static void main(String[] args) {
-        Solution118 sol = new Solution118();
+        Solution88 sol = new Solution88();
+//        int[] test1 = {1,1,1,2,3,3,3,0,0,0,0,0};
+//        int[] test2 = {5,6};
+//        int[] test2 = {-1,0};
 
-        System.out.println(sol.generate(0));
+        int[] test1 = {1,2,4,5,6,0};
+        int[] test2 = {3};
+        sol.merge(test1, 5, test2, 1);
+        System.out.println(Arrays.toString(test1));
     }
 }
