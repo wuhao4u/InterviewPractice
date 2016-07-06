@@ -6,7 +6,8 @@ import java.util.Random;
 public class Main {
 
     public static void main(String[] args) {
-        Solution119 sol = new Solution119();
-        System.out.println(sol.getRow(1));
+        Solution118 sol = new Solution118();
+
+        System.out.println(sol.generate(0));
     }
 }
