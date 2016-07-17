@@ -4,6 +4,42 @@
 		"selected_items":
 		[
 			[
+				"mL",
+				"mList"
+			],
+			[
+				"geta",
+				"getAverage"
+			],
+			[
+				"getA",
+				"getAverage"
+			],
+			[
+				"nu",
+				"nums"
+			],
+			[
+				"nums",
+				"nums"
+			],
+			[
+				"remov",
+				"removeVal"
+			],
+			[
+				"ar",
+				"argv"
+			],
+			[
+				"remo",
+				"removeElement"
+			],
+			[
+				"arg",
+				"argv"
+			],
+			[
 				"pri",
 				"PrintList"
 			],
@@ -252,10 +288,6 @@
 				"num1Char"
 			],
 			[
-				"nu",
-				"num1"
-			],
-			[
 				"l1",
 				"l1Tracker"
 			],
@@ -320,10 +352,6 @@
 				"remover"
 			],
 			[
-				"remov",
-				"removeNthFromEnd"
-			],
-			[
 				"l2",
 				"l2Tracker"
 			],
@@ -334,10 +362,6 @@
 			[
 				"prev",
 				"previous"
-			],
-			[
-				"remo",
-				"removeElements"
 			],
 			[
 				"retur",
@@ -490,60 +514,11 @@
 			[
 				"read",
 				"read_string"
-			],
-			[
-				"m",
-				"m_str"
-			],
-			[
-				"ar",
-				"argc"
-			],
-			[
-				"inf",
-				"log_info"
-			],
-			[
-				"fg",
-				"fgetc"
-			],
-			[
-				"p",
-				"plot"
-			],
-			[
-				"first",
-				"first_name"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "107.c",
-			"settings":
-			{
-				"buffer_size": 296,
-				"line_ending": "Unix",
-				"name": "int** levelOrderBottom(struct TreeNode* root, int*"
-			}
-		},
-		{
-			"file": "binaryTreeLib.c",
-			"settings":
-			{
-				"buffer_size": 8951,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "binaryTreeLib.h",
-			"settings":
-			{
-				"buffer_size": 1060,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -561,16 +536,16 @@
 				":w - Save"
 			],
 			[
+				":q",
+				"Set Syntax: SQL"
+			],
+			[
 				":s",
 				":w - Save"
 			],
 			[
 				":we",
 				":w - Save"
-			],
-			[
-				":q",
-				"Set Syntax: SQL"
 			],
 			[
 				":",
@@ -742,6 +717,20 @@
 	},
 	"file_history":
 	[
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/io.cpp",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/passArrayFunc.c",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/binaryTreeLib.c",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/binaryTreeLib.h",
+		"/Users/wuhao/Documents/GitHub/other/test.java",
+		"/Users/wuhao/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/27.c",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/test",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/27.cpp",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/27.py",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/219.py",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/219.cpp",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/219.c",
+		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/107.c",
 		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/linkedListLib.h",
 		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/linkedListLib.c",
 		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/binaryTreeProblems.c",
@@ -758,8 +747,6 @@
 		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/binaryTreeTests.h",
 		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/binaryTreeTests.c",
 		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/wat.c",
-		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/binaryTreeLib.c",
-		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/binaryTreeLib.h",
 		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/binaryTreeLib.cpp",
 		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/binaryTreeTests.cpp",
 		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/binaryTreeProblems.cpp",
@@ -767,7 +754,6 @@
 		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/linkedListProblems.c",
 		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/linkedListTests.c",
 		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/linkedListTests.h",
-		"/Users/wuhao/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/2.c",
 		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/92.c",
 		"/Users/wuhao/Documents/GitHub/InterviewPractice/leetCode/86.c",
@@ -858,18 +844,7 @@
 		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex8.c",
 		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex4.c",
 		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex5.c",
-		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex6.c",
-		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex3/ex3.c",
-		"/Users/wuhao/Documents/GitHub/c/lynda-CEsential/Exercise Files/10_07.c",
-		"/Users/wuhao/Documents/GitHub/c/lynda-CEsential/challenge6.c",
-		"/Users/wuhao/Documents/GitHub/c/lynda-CEsential/challenge5/rand.c",
-		"/Users/wuhao/Documents/GitHub/c/lynda-CEsential/challenge5/main.c",
-		"/Users/wuhao/Documents/GitHub/c/lynda-CEsential/challenge4.c",
-		"/Users/wuhao/Documents/GitHub/c/lynda-CEsential/challenge4",
-		"/Users/wuhao/Documents/GitHub/c/lynda-CEsential/Exercise Files/07_02.c",
-		"/Users/wuhao/Documents/GitHub/accpp/chapter06-hao/grade_analysis.cc",
-		"/Users/wuhao/Documents/GitHub/accpp/chapter06-hao/grade.cc",
-		"/Users/wuhao/Documents/GitHub/accpp/chapter06-hao/grading/6-5.cc"
+		"/Users/wuhao/Documents/GitHub/c/learnCTheHardWay/ex/ex6.c"
 	],
 	"find":
 	{
@@ -887,6 +862,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"v.",
+			"v",
+			"auto",
+			"            ",
+			"i",
 			"shuffleMer",
 			"hao",
 			"Length",
@@ -1009,12 +989,7 @@
 			"Map_attach",
 			"map_atta",
 			"damage",
-			"Monster",
-			"bad_guy",
-			"Map",
-			"switch",
-			"init",
-			"NEW"
+			"Monster"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1032,96 +1007,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "107.c",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 296,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								223,
-								223
-							]
-						],
-						"settings":
-						{
-							"auto_name": "int** levelOrderBottom(struct TreeNode* root, int*",
-							"syntax": "Packages/C++/C++.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "binaryTreeLib.c",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8951,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5256,
-								5256
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3179.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "binaryTreeLib.h",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1060,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								450,
-								450
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],
