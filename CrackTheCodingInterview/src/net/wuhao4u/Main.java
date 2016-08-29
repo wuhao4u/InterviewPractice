@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        Q15 q15 = new Q15();
-        q15.main(null);
+        Q16 obj = new Q16();
+        obj.main(null);
     }
 }
