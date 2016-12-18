@@ -13,8 +13,7 @@ class BST(object):
 
     # insert_node : Node int -> Node
     def insert_node(self, node, new_val):
-        if node == None:
-            print(new_val)
+        if node is None:
             return Node(new_val)
         else:
             if new_val <= node.value:
@@ -24,9 +23,14 @@ class BST(object):
             return node
 
     def search(self, find_val):
-        if self.root.value == find_val:
-            return True
-            # elif find_val < self.
+        return self.search_node(self.root, find_val)
+
+    def search_node(self, node, find_val):
+        if node:
+            if node.value == find_val:
+                return True
+            else:
+                return (self.search_node(node.left, find_val)) or (self.search_node(node.right, find_val))
         return False
 
     def print_tree(self):
@@ -41,25 +45,22 @@ class BST(object):
     def preorder_print(self, start, traversal):
         """Helper method - use this to create a 
         recursive print solution."""
-        traversal.append(str(start.value))
+        if start:
+            traversal.append(str(start.value))
 
-        if start.left:
             self.preorder_print(start.left, traversal)
 
-        if start.right:
             self.preorder_print(start.right, traversal)
 
         return traversal
 
-    # something's wrong here
     def inorder_print(self, start, traversal):
-        if start.left:
-            self.preorder_print(start.left, traversal)
+        if start:
+            self.inorder_print(start.left, traversal)
 
-        traversal.append(str(start.value))
+            traversal.append(str(start.value))
 
-        if start.right:
-            self.preorder_print(start.right, traversal)
+            self.inorder_print(start.right, traversal)
 
         return traversal
 
@@ -72,11 +73,16 @@ tree.insert(2)
 tree.insert(1)
 tree.insert(3)
 tree.insert(5)
-y = 0
+
 # print(tree.print_tree())
 
 # Check search
 # Should be True
-# print tree.search(4)
+print(tree.search(4))
+print(tree.search(1))
+print(tree.search(5))
+
 # Should be False
-# print tree.search(6)
+print(tree.search(6))
+print(tree.search(0))
+print(tree.search(100))
