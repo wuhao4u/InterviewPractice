@@ -146,7 +146,15 @@ class Graph(object):
         RETURN: a list of the traversed node values (integers).
         """
         ret_list = [start_node.value]
-        # Your code here
+
+        if start_node.visited:
+            return []
+        else:
+            start_node.visited = True
+            for edge in self.edges:
+                if edge.node_from == start_node and (edge.node_to.value not in ret_list):
+                    ret_list.extend(self.dfs(edge.node_to.value))
+
         return ret_list
 
     def dfs(self, start_node_num):
@@ -218,24 +226,24 @@ import pprint
 
 pp = pprint.PrettyPrinter(indent=2)
 
-print "Edge List"
+print("Edge List")
 pp.pprint(graph.get_edge_list_names())
 
-print "\nAdjacency List"
+print("\nAdjacency List")
 pp.pprint(graph.get_adjacency_list_names())
 
-print "\nAdjacency Matrix"
+print("\nAdjacency Matrix")
 pp.pprint(graph.get_adjacency_matrix())
 
-print "\nDepth First Search"
+print("\nDepth First Search")
 pp.pprint(graph.dfs_names(2))
 
 # Should print:
 # Depth First Search
 # ['London', 'Shanghai', 'Mountain View', 'San Francisco', 'Berlin', 'Sao Paolo']
 
-print "\nBreadth First Search"
-pp.pprint(graph.bfs_names(2))
+# print("\nBreadth First Search")
+# pp.pprint(graph.bfs_names(2))
 # test error reporting
 # pp.pprint(['Sao Paolo', 'Mountain View', 'San Francisco', 'London', 'Shanghai', 'Berlin'])
 

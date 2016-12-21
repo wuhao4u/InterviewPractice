@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76531a27-d5db-4c91-8b72-99f1e6200377" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GraphRepresentation-answer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GraphTraversal.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/udacityTechInterview.iml" afterPath="$PROJECT_DIR$/.idea/udacityTechInterview.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GraphRepresentation.py" afterPath="$PROJECT_DIR$/GraphRepresentation.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GraphTraversal.py" afterPath="$PROJECT_DIR$/GraphTraversal.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,6 +18,7 @@
     <SUITE FILE_PATH="coverage/udacityTechInterview$Quicksort.coverage" NAME="Quicksort Coverage Results" MODIFIED="1482038867292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/udacityTechInterview$BST.coverage" NAME="BST Coverage Results" MODIFIED="1482081624217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/udacityTechInterview$GraphRepresentation.coverage" NAME="GraphRepresentation Coverage Results" MODIFIED="1482144550058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/udacityTechInterview$GraphTraversal.coverage" NAME="GraphTraversal Coverage Results" MODIFIED="1482158181147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/udacityTechInterview$GraphRepresentation_answer.coverage" NAME="GraphRepresentation-answer Coverage Results" MODIFIED="1482144906182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/udacityTechInterview$Recursion_answer.coverage" NAME="Recursion-answer Coverage Results" MODIFIED="1481831420842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -56,8 +52,8 @@
       <file leaf-file-name="GraphTraversal.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GraphTraversal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3645">
-              <caret line="243" column="81" lean-forward="false" selection-start-line="243" selection-start-column="81" selection-end-line="243" selection-end-column="81" />
+            <state relative-caret-position="300">
+              <caret line="159" column="34" lean-forward="true" selection-start-line="159" selection-start-column="34" selection-end-line="159" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -96,6 +92,8 @@
     <findStrings>
       <find>here</find>
       <find>print</find>
+      <find>dfs_helper</find>
+      <find>_node_map</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -172,25 +170,7 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.GraphRepresentation-answer">
-    <configuration default="false" name="Quicksort" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="udacityTechInterview" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Quicksort.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.GraphTraversal">
     <configuration default="false" name="BST" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -259,6 +239,24 @@
       <module name="udacityTechInterview" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GraphRepresentation-answer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="GraphTraversal" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.3/bin/python3.3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="udacityTechInterview" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GraphTraversal.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -478,19 +476,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Quicksort" />
-      <item index="1" class="java.lang.String" itemvalue="Python.BST" />
-      <item index="2" class="java.lang.String" itemvalue="Python.BST-answer" />
-      <item index="3" class="java.lang.String" itemvalue="Python.GraphRepresentation" />
-      <item index="4" class="java.lang.String" itemvalue="Python.GraphRepresentation-answer" />
+      <item index="0" class="java.lang.String" itemvalue="Python.BST" />
+      <item index="1" class="java.lang.String" itemvalue="Python.BST-answer" />
+      <item index="2" class="java.lang.String" itemvalue="Python.GraphRepresentation" />
+      <item index="3" class="java.lang.String" itemvalue="Python.GraphRepresentation-answer" />
+      <item index="4" class="java.lang.String" itemvalue="Python.GraphTraversal" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.GraphRepresentation-answer" />
-        <item index="1" class="java.lang.String" itemvalue="Python.GraphRepresentation" />
-        <item index="2" class="java.lang.String" itemvalue="Python.BST-answer" />
-        <item index="3" class="java.lang.String" itemvalue="Python.BST" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Quicksort" />
+        <item index="0" class="java.lang.String" itemvalue="Python.GraphTraversal" />
+        <item index="1" class="java.lang.String" itemvalue="Python.GraphRepresentation-answer" />
+        <item index="2" class="java.lang.String" itemvalue="Python.GraphRepresentation" />
+        <item index="3" class="java.lang.String" itemvalue="Python.BST-answer" />
+        <item index="4" class="java.lang.String" itemvalue="Python.BST" />
       </list>
     </recent_temporary>
   </component>
@@ -533,7 +531,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.4978701" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24736843" sideWeight="0.4928264" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24736843" sideWeight="0.4928264" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -558,7 +556,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="14" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -807,8 +805,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GraphTraversal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3645">
-          <caret line="243" column="81" lean-forward="false" selection-start-line="243" selection-start-column="81" selection-end-line="243" selection-end-column="81" />
+        <state relative-caret-position="300">
+          <caret line="159" column="34" lean-forward="true" selection-start-line="159" selection-start-column="34" selection-end-line="159" selection-end-column="34" />
           <folding />
         </state>
       </provider>
