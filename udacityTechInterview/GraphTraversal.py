@@ -1,3 +1,6 @@
+from collections import deque
+
+
 class Node(object):
     def __init__(self, value):
         self.value = value
@@ -147,13 +150,18 @@ class Graph(object):
         """
         ret_list = [start_node.value]
 
-        if start_node.visited:
-            return []
-        else:
-            start_node.visited = True
-            for edge in self.edges:
-                if edge.node_from == start_node and (edge.node_to.value not in ret_list):
-                    ret_list.extend(self.dfs(edge.node_to.value))
+        # we are sure that the start node exists. and it's a reference to the node
+        start_node.visited = True
+
+        for edge in self.edges:
+            # find the edges that starts with the start_node
+            if edge.node_from.value == start_node.value:
+                # this is an adjacent node
+                # we are assuming that self.nodes contains the edge.node_to
+                # edge.node_to is just a reference to a node in self.nodes
+                if not edge.node_to.visited:
+                    result = self.dfs_helper(edge.node_to)
+                    ret_list.extend(result)
 
         return ret_list
 
@@ -178,10 +186,27 @@ class Graph(object):
         ARGUMENTS: start_node_num is the node number (integer)
         MODIFIES: the value of the visited property of nodes in self.nodes
         RETURN: a list of the node values (integers)."""
+        # DOING
         node = self.find_node(start_node_num)
         self._clear_visited()
-        ret_list = [node.value]
+        ret_list = []
+
         # Your code here
+        visiting_queue = deque()
+        visiting_queue.append(node)
+        while len(visiting_queue) > 0:
+            current = visiting_queue.popleft()
+            current.visited = True
+            # if current.value not in ret_list:
+            ret_list.append(current.value)
+
+            for edge in self.edges:
+                if edge.node_from.value == current.value and (not edge.node_to.visited):
+                        # this is an adjacent node
+                        new_node = edge.node_to
+                        new_node.visited = True
+                        visiting_queue.append(new_node)
+
         return ret_list
 
     def bfs_names(self, start_node_num):
@@ -242,8 +267,8 @@ pp.pprint(graph.dfs_names(2))
 # Depth First Search
 # ['London', 'Shanghai', 'Mountain View', 'San Francisco', 'Berlin', 'Sao Paolo']
 
-# print("\nBreadth First Search")
-# pp.pprint(graph.bfs_names(2))
+print("\nBreadth First Search")
+pp.pprint(graph.bfs_names(2))
 # test error reporting
 # pp.pprint(['Sao Paolo', 'Mountain View', 'San Francisco', 'London', 'Shanghai', 'Berlin'])
 
