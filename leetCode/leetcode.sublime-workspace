@@ -225,7 +225,7 @@
 			],
 			[
 				"pr",
-				"printf	printf …"
+				"printf\tprintf …"
 			],
 			[
 				"printPa",
@@ -277,7 +277,7 @@
 			],
 			[
 				"usin",
-				"usings	Using statement"
+				"usings\tUsing statement"
 			],
 			[
 				"num1",
@@ -489,7 +489,7 @@
 			],
 			[
 				"for",
-				"for	For Loop"
+				"for\tFor Loop"
 			],
 			[
 				"beg",
@@ -501,7 +501,7 @@
 			],
 			[
 				"using",
-				"usingt	Using statement (templated)"
+				"usingt\tUsing statement (templated)"
 			],
 			[
 				"ma",

@@ -1,3 +1,20 @@
+# create your own binary tree. You should start with the most basic building block:
+
+# class Node(object):
+#     def __init__(self, value):
+#         self.value = value
+#         self.left = None
+#         self.right = None
+# Every node has some value, and pointers to left and right children. 
+
+# You'll need to implement two methods: search(), which searches for the presence of a node in the tree, and print_tree(),
+# which prints out the values of tree nodes in a pre-order traversal. 
+# You should attempt to use the helper methods provided to create recursive solutions to these functions. 
+
+# Let's get started!
+# START QUIZ
+
+
 class Node(object):
     def __init__(self, value):
         self.value = value
