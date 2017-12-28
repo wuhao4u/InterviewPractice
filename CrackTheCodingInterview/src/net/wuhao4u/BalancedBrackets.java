@@ -1,10 +1,11 @@
+package net.wuhao4u;
 import java.io.*;
 import java.util.*;
 import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class Solution {
+public class BalancedBrackets {
     
     public static boolean isBalanced(String expression) {
         if (expression == null) return false;

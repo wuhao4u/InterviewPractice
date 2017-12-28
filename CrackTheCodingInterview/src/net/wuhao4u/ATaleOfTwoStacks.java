@@ -1,10 +1,13 @@
+package net.wuhao4u;
+
 import java.io.*;
 import java.util.*;
 import java.text.*;
 import java.math.*;
+
 import java.util.regex.*;
 
-public class Solution {
+public class ATaleOfTwoStacks {
     public static class MyQueue<T> {
         Stack<T> not = new Stack<T>();
         Stack<T> oot = new Stack<T>();
