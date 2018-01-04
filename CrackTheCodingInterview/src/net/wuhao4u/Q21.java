@@ -31,11 +31,39 @@ public class Q21 {
         }
     }
 
+    public static void removeDuplicatesNoExtraSpace(Node head) {
+        Node slow = head;
+        Node fast = null;
+
+        Node prev = null;
+        while (slow.next.next != null) {
+            prev = slow;
+            fast = slow.next;
+
+            if (fast.data == slow.data) {
+                prev.next = fast.next;
+            }
+
+            while (fast.next != null) {
+                if (fast.data == slow.data) {
+                    prev.next = fast.next;
+                    fast = fast.next;
+                } else {
+                    prev = prev.next;
+                    fast = fast.next;
+                }
+            }
+
+            slow = slow.next;
+        }
+    }
+
     public static void main(String[] args) {
         int[] a = {1, 2, 3, 4, 5, 6, 3, 4, 3, 2, 1, 9};
         Node test = LinkedListUtil.arrayToLinkedList(a);
         LinkedListUtil.printLinkedList(test);
-        Q21.removeDuplicates(test);
+//        Q21.removeDuplicates(test);
+        Q21.removeDuplicatesNoExtraSpace(test);
         LinkedListUtil.printLinkedList(test);
     }
 }
