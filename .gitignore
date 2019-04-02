@@ -1,4 +1,6 @@
 nuance/*
+.idea
+*.iml
 
 # Prerequisites
 *.d

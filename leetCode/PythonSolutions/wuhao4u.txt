@@ -1,0 +1,44 @@
+//
+Toggle navigation Hao Wu <#>
+
+  * GitHub <https://github.com/wuhao4u/>
+  * Resume <https://wuhao4u.github.io/home/resume-haowu.pdf>
+
+
+  Hao Wu (吴昊) - Home Page
+
+
+    About Me
+
+I am a Master’s student of Computer Science in the College of Computer
+and Information Science at Northeastern University. I have been
+interested in Game Design and Development and worked on several indie
+games in the past including “Freaky Deaky Flashback.”
+<http://gel.msu.edu/freaky-deaky-flashback/> The game released on both
+Android and iOS platform.
+
+Lately, I have been fascinated about the topics of computer networks,
+network security and web development. Here are some of the networks
+related projects
+<https://github.com/wuhao4u/networkProjects/tree/master/neu_cs_5700>
+that I have been recently working on.
+
+Professionally, I have worked as a part-time software developer at
+Michigan State University Library; <https://tic.msu.edu/> software
+developer intern at IDV Solutions <https://idvsolutions.com/>; database
+administrator/IT specialist at Regina Andrew Design
+<http://www.reginaandrew.com/> and finally contract software developer
+at Euroinnum China <http://www.oumeng.com.cn/>.
+
+Please check out my Resume
+<https://wuhao4u.github.io/home/resume-haowu.pdf> for more details about
+me and my work.
+
+
+    Contact Information
+
+Email: hao.wu.work *at* gmail *dot* com
+
+<https://www.linkedin.com/in/hao-david-wu-60a7b7a9>
+<https://github.com/wuhao4u> <https://twitter.com/wuhao4u>
+

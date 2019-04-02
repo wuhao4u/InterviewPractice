@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df2ee37a-c5a1-429a-b7e0-53b1c5de6db6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../CrackTheCodingInterview/src/net/wuhao4u/ListNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../CrackTheCodingInterview/src/net/wuhao4u/ResizableArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../CrackTheCodingInterview/src/net/wuhao4u/ReverseNodesInKGroup.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoomesdayFuel.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/improbabilityCalculator.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reverseButPreserveWhitespace.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zappos.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../CrackTheCodingInterview/src/net/wuhao4u/StringTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../CrackTheCodingInterview/src/net/wuhao4u/TimeConversion.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CrackTheCodingInterview/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../CrackTheCodingInterview/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../leetCode/leetcode.sublime-workspace" afterPath="$PROJECT_DIR$/../leetCode/leetcode.sublime-workspace" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../udacityTechInterview/BinarySearch-answer.py" afterPath="$PROJECT_DIR$/../udacityTechInterview/BinarySearch-answer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../udacityTechInterview/BinaryTree.py" afterPath="$PROJECT_DIR$/../udacityTechInterview/BinaryTree.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -448,10 +438,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="22" width="1436" height="878" extended-state="6" />
+    <frame x="4" y="22" width="1916" height="1058" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17144907" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12913553" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -485,6 +475,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/DoomesdayFuel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DoomesdayFuel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
