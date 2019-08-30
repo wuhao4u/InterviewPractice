@@ -8,6 +8,8 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        String hw = "Hello World!";
+        System.out.println(hw);
+        System.out.println(hw.hashCode());
     }
 }
