@@ -2,6 +2,20 @@ package io.github.wuhao4u;
 
 public class PermutationsOfAString {
     // permute string
+
+    /*
+    If you're past the last position
+        Print the string
+        Return
+    Otherwise
+        For each letter in the input string
+        If it's marked as used, skip to the next letter
+        Else place the letter in the current position
+            Mark the letter as used
+            Permute remaining letters starting at current position + 1 (recursion)
+            Mark the letter as unused (back track)
+     */
+
     public void permute(String str) {
         int length = str.length();
         boolean[] used = new boolean[length];
